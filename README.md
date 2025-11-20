@@ -1,4 +1,6 @@
-# LICENCE
+# IMPORTANT INFORMATION
+______________________________________________________________________________
+### LICENCE
 
 © 2025 max-studios. All rights reserved.
 ______________________________________________________________________________
@@ -7,7 +9,7 @@ ______________________________________________________________________________
 - put plugin.jar in /plugins folder
 - restart server
 - go to /plugins/KyaniteConsilium
-- configure and customice your server
+- configure and customize your server
   --> restart (/reload)
 
 ______________________________________________________________________________
