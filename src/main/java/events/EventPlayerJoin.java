@@ -32,8 +32,10 @@ public class EventPlayerJoin implements Listener {
 
             if (messages == null || messages.isEmpty()) {
                 //nothing
+
                 return;
             }
+            event.setJoinMessage(null);
             int randomIndex = random.nextInt(messages.size());
             String random_message = messages.get(randomIndex);
             Bukkit.broadcastMessage(ChatColor.YELLOW + event.getPlayer().getName() + " " + random_message);
