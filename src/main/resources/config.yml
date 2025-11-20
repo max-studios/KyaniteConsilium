@@ -1,0 +1,7 @@
+# CONFIGURATION
+
+custom-player-join-messages:
+  active: true
+  messages:
+    - "felt in to the server"
+    - "is excited to play"
