@@ -1,2 +1,3 @@
-# KyaniteConsilium
-This plugin adds many configurations to customize your server!
+# LICENCE
+
+© 2025 max-studios. All rights reserved.
