@@ -38,7 +38,7 @@ public class EventPlayerJoin implements Listener {
             event.setJoinMessage(null);
             int randomIndex = random.nextInt(messages.size());
             String random_message = messages.get(randomIndex);
-            Bukkit.broadcastMessage(ChatColor.YELLOW + event.getPlayer().getName() + " " + random_message);
+            Bukkit.broadcastMessage(ChatColor.GRAY + "[" + ChatColor.GREEN + "+" + ChatColor.GRAY + "] " + ChatColor.YELLOW + event.getPlayer().getName() + " " + random_message);
         }
     }
 }
