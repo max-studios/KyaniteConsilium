@@ -5,3 +5,11 @@ custom-player-join-messages:
   messages:
     - "felt in to the server"
     - "is excited to play"
+
+custom-player-leave-messages:
+  active: true
+  messages:
+    - "dont want anymore"
+    - "has to do homework"
+    - "forgot chicken in his furnace"
+    - "is very tired"
