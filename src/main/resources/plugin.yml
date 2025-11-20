@@ -1,0 +1,4 @@
+name: KyaniteConsilium
+version: '1.0'
+main: com.maxstudios.kyaniteConsilium.Main
+api-version: '1.21'
