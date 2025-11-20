@@ -8,6 +8,7 @@ ______________________________________________________________________________
 - restart server
 - go to /plugins/KyaniteConsilium
 - configure and customice your server
+  --> restart (/reload)
 
 ______________________________________________________________________________
 
