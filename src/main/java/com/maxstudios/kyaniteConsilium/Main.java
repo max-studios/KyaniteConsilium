@@ -11,7 +11,7 @@ public final class Main extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         this.saveDefaultConfig();
-
+        register();
         Bukkit.getConsoleSender().sendMessage(ChatColor.RED.toString() + ChatColor.BOLD + "KyaniteConsilium is loaded successfully!");
     }
 
