@@ -1,4 +1,11 @@
 name: KyaniteConsilium
-version: '1.0'
+version: '1.0.3'
 main: com.maxstudios.kyaniteConsilium.Main
 api-version: '1.21'
+commands:
+  kyaniteconsilium:
+    description: "Shows plugin"
+    aliases:
+      - kc
+      - consilium
+      - kyanite
