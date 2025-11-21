@@ -1,5 +1,6 @@
 package com.maxstudios.kyaniteConsilium;
 
+import com.maxstudios.kyaniteConsilium.commands.CommandKyaniteConsilium;
 import com.maxstudios.kyaniteConsilium.events.EventPlayerJoin;
 import com.maxstudios.kyaniteConsilium.events.EventPlayerLeave;
 import org.bukkit.Bukkit;
@@ -17,8 +18,12 @@ public final class Main extends JavaPlugin {
     }
 
     private void register() {
+        //_____________________________________________________________________________________________EVENTS
         getServer().getPluginManager().registerEvents(new EventPlayerJoin(this), this);
         getServer().getPluginManager().registerEvents(new EventPlayerLeave(this), this);
+        //_____________________________________________________________________________________________COMMANDS
+        this.getCommand("kyaniteconsilium").setExecutor(new CommandKyaniteConsilium());
+        //_____________________________________________________________________________________________
     }
 
 
