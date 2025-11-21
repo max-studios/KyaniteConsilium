@@ -1,11 +1,13 @@
 # CONFIGURATION
 
+# If there ist more than one message --> random choice of messages
 custom-player-join-messages:
   active: true
   messages:
     - "felt in to the server"
     - "is excited to play"
 
+# If there ist more than one message --> random choice of messages
 custom-player-leave-messages:
   active: true
   messages:
@@ -13,3 +15,8 @@ custom-player-leave-messages:
     - "has to do homework"
     - "forgot chicken in his furnace"
     - "is very tired"
+
+# Choose first-time message when a new player joins
+first-player-join-message:
+  active: true
+  message: "joined the first time. Welcome"
