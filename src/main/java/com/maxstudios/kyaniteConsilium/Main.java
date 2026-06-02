@@ -1,5 +1,6 @@
 package com.maxstudios.kyaniteConsilium;
 
+import com.maxstudios.kyaniteConsilium.commands.CommandAboutKyanite;
 import com.maxstudios.kyaniteConsilium.commands.CommandClock;
 import com.maxstudios.kyaniteConsilium.commands.CommandKyaniteConsilium;
 import com.maxstudios.kyaniteConsilium.events.EventPlayerJoin;
@@ -25,6 +26,7 @@ public final class Main extends JavaPlugin {
         //_____________________________________________________________________________________________COMMANDS
         this.getCommand("kyaniteconsilium").setExecutor(new CommandKyaniteConsilium());
         this.getCommand("clock").setExecutor(new CommandClock());
+        this.getCommand("about").setExecutor(new CommandAboutKyanite());
         //_____________________________________________________________________________________________
     }
 

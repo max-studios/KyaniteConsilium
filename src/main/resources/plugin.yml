@@ -17,3 +17,9 @@ commands:
       - time-here
       - rtime
       - real-time
+
+  about:
+    description: "Shows my GitHub"
+    aliases:
+      - about-kyanite
+      - kyanite-git
