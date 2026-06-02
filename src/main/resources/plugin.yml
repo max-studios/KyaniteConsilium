@@ -9,3 +9,11 @@ commands:
       - kc
       - consilium
       - kyanite
+  clock:
+    description: "Shows time in real format"
+    aliases:
+      - clock
+      - clock-now
+      - time-here
+      - rtime
+      - real-time
